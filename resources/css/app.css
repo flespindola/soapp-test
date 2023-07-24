@@ -1,0 +1,48 @@
+.watermark {
+    position: absolute;
+    opacity: 0.20;
+    font-size: 5em;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+    z-index: 1000;
+}
+
+.movable {
+    position: absolute;
+    z-index: 1000;
+}
+
+#fixedButton.p-button:enabled:focus {
+    background: rgba(63, 81, 181, 1) !important;
+}
+
+#fixedButton.p-button-danger:enabled:focus {
+    background: rgba(211, 47, 47, 1) !important;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .fc-header-toolbar {
+        display: block !important;
+        text-align: center;
+    }
+
+    .fc-header-toolbar > .fc-toolbar-chunk {
+        margin: 1em 2em;
+    }
+
+}
+
+.vc-arrow, .vc-title {
+    background-color: transparent;
+}
+
+.p-dialog-header {
+    cursor: move;
+}
+
+.fit-color-with-input > .p-colorpicker-preview {
+    height: 100%
+}
